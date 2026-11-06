@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><title>1 - On Air</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0a0a0a;color:#e5e5e5;font:16px/1.5 Inter,sans-serif}
+.top{display:flex;align-items:center;gap:20px;padding:14px 24px;background:#141414;border-bottom:2px solid #222}
+.onair{font:800 14px Inter;letter-spacing:.2em;padding:8px 14px;border:2px solid #ff2d2d;color:#ff2d2d;border-radius:6px;box-shadow:0 0 18px #ff2d2d88;background:#ff2d2d22}
+.time{font:700 28px 'JetBrains Mono';color:#fff}
+.vu{display:flex;gap:3px;align-items:end;height:28px}.vu i{width:6px;background:#22c55e;border-radius:1px}.vu i:nth-child(n+11){background:#facc15}.vu i:nth-child(n+14){background:#ff2d2d}
+select,button{font:600 14px Inter;border-radius:6px;border:1px solid #333;background:#1c1c1c;color:#ddd;padding:10px 12px}
+button.stop{margin-left:auto;background:#ff2d2d;color:#000;border:0;padding:12px 26px;font-weight:800;letter-spacing:.1em}
+.grid{display:grid;grid-template-columns:1fr 360px;gap:2px;background:#222;min-height:calc(100vh - 66px)}
+.pane{background:#0a0a0a;padding:20px 24px}h2{font:700 12px 'JetBrains Mono';letter-spacing:.15em;color:#777;margin:0 0 16px}
+.l{margin:0 0 14px;font-size:19px}.s{font:700 13px 'JetBrains Mono';color:#ff2d2d;margin-right:10px}.s.b{color:#38bdf8}.int{color:#666}
+.tip{border-left:3px solid #facc15;background:#161616;padding:12px 14px;margin-bottom:10px}.tip b{font:700 11px 'JetBrains Mono';letter-spacing:.1em;color:#facc15;display:block}
+.tip.f b{color:#38bdf8}.tip.f{border-color:#38bdf8}.ch{display:grid;grid-template-columns:70px 1fr 40px;gap:8px;align-items:center;font:13px 'JetBrains Mono';margin-bottom:8px}
+.bar{height:10px;background:#222}.bar div{height:100%;background:#ff2d2d}.ok{color:#22c55e;font:700 13px 'JetBrains Mono'}
+</style></head><body>
+<div class="top"><span class="onair">ON AIR</span><span class="time">12:47</span>
+<div class="vu"><i style="height:30%"></i><i style="height:40%"></i><i style="height:50%"></i><i style="height:55%"></i><i style="height:60%"></i><i style="height:65%"></i><i style="height:70%"></i><i style="height:74%"></i><i style="height:78%"></i><i style="height:82%"></i><i style="height:86%"></i><i style="height:90%"></i><i style="height:94%"></i><i style="height:20%;opacity:.2"></i><i style="height:20%;opacity:.2"></i></div>
+<select><option>Shure MV7 (USB)</option></select><button class="stop">STOP</button></div>
+<div class="grid"><div class="pane"><h2>// LIVE TRANSCRIPT</h2>
+<p class="l"><span class="s">HOST</span>Welcome back to the show. Today we're digging into how AI agents actually work.</p>
+<p class="l"><span class="s b">GUEST</span>Right, and honestly most people think it's magic, but it's mostly LangGraph and a lot of prompts.</p>
+<p class="l"><span class="s">HOST</span>Ha, like the Lisbon thing all over again.</p>
+<p class="l int"><span class="s b">GUEST</span>Exactly, so when we built the first version we...</p></div>
+<div class="pane"><h2>// AUDIO</h2><p class="ok">● ALL CHANNELS OK</p><h2 style="margin-top:24px">// TALK TIME</h2>
+<div class="ch"><span>HOST</span><div class="bar"><div style="width:68%"></div></div><span>68%</span></div>
+<div class="ch"><span>GUEST</span><div class="bar"><div style="width:32%;background:#38bdf8"></div></div><span>32%</span></div>
+<h2 style="margin-top:24px">// DIRECTOR</h2>
+<div class="tip"><b>UNEXPLAINED TERM</b>"LangGraph" - explain it in one sentence.</div>
+<div class="tip"><b>INSIDE JOKE</b>"The Lisbon thing" - listeners weren't there.</div>
+<div class="tip f"><b>FOLLOW-UP</b>Ask what broke in the first version.</div></div></div>
+</body></html>

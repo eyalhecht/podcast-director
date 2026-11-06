@@ -1,0 +1,12 @@
+{
+  "_source": "Calibrated offline on about 40 episodes of public Hebrew podcasts that I rated good or flat. Audio pauses were dropped: too noisy across good shows.",
+  "voice_melody": {
+    "min": 3.8,
+    "nudge": "Voices sound flat. Let your tone move more."
+  },
+  "speaker_switches": {
+    "min": 1.0,
+    "window": 300,
+    "nudge": "Long monologues. Talk with each other more."
+  }
+}

@@ -1,0 +1,8 @@
+deepgram-sdk==7.14.0
+fastapi
+uvicorn[standard]
+python-dotenv
+langgraph==1.2.16
+openai==3.35.1
+numpy
+librosa==1.0.0

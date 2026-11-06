@@ -1,0 +1,8 @@
+.env
+node_modules/
+__pycache__/
+.venv/
+transcripts/
+dist/
+frontend/public/demo.wav
+frontend/public/demo-*.wav
