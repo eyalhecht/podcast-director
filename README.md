@@ -4,6 +4,14 @@
 
 A producer in the room for podcasters who record without one. It listens while you record and, on one screen next to the live transcript, tells you what a producer would whisper: "explain that term", "you said you'd come back to pricing", "they were mid-story, let them finish", "voices sound flat". When you press Stop it writes the show notes, chapters and title ideas, and scores how the conversation went.
 
+![The live screen: transcript on the left; margin notes, loose ends, talk time and an edit list on the right](docs/images/live.png)
+
+*While recording. The conversation is made up for this screenshot.*
+
+![After Stop: a scorecard compared with measured good shows, then Hebrew show notes with chapters and title ideas](docs/images/after.png)
+
+*After Stop: the scorecard and the show notes.*
+
 **Status: in progress, a working prototype.** It runs on one laptop for one host, it is built for Hebrew shows first, and it has only been tested on Windows. See [Limits](#limits) before you try it.
 
 ## Why it is interesting
